@@ -10,7 +10,7 @@ public class StringUtilTest {
 	
 	@Test//判断是否是手机号
 	public void testIsPhone() {
-	 String str ="187999999991";
+	 String str ="13563258562";
 	 boolean b = StringUtil.isPhone(str);
 	 if(b) {
 		 System.out.println("是");
